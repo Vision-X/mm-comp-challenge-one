@@ -186,6 +186,10 @@ button {
 .normal {
   width: 50%;
 }
+
+.last {
+  width: 100%;
+}
 }
 
 @media screen and (max-width: 420px) {
