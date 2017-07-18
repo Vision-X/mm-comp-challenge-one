@@ -174,7 +174,8 @@ button {
   order: -2;
   width: 100%;
 }
-#portfolio8 {
+
+.last {
   width: 100%;
 }
 }
