@@ -63,6 +63,7 @@ p {
 
 .squares:hover {
   opacity: 1.5;
+  border: 1px solid black;
 }
 
 /*WIDE SQUARE*/
