@@ -101,16 +101,13 @@ p {
   height: 100vh;
   width: 40%;
 }
+
 #portrait-image-section {
   display:none;
 }
 
 /*COLORS FOR THE SQUARES*/
-P {
-  color: white;
-}
-
-.wide-tile p {
+p {
   color: white;
 }
 
@@ -120,7 +117,6 @@ P {
 
 .yellow {
   background-color: #FDF001;
-  color: white;
 }
 
 .gray {
@@ -132,7 +128,6 @@ P {
 }
 
 
-
 /* /// media queries/// */
 
 @media screen and (max-width: 1000px) {
@@ -140,6 +135,7 @@ P {
 #slideshow-section {
   display: none;
 }
+
 nav {
   align-items: baseline;
   width: 100%;
@@ -210,6 +206,13 @@ p {
   font-size: 14px;
 }
 
+button {
+  font-size: 14px;
+  height: 50px;
+  margin-bottom: 5px;
+  width: 50%;
+}
+
 .wide p {
   margin-bottom: 0px;
 }
@@ -219,10 +222,4 @@ p {
   width: 100%;
 }
 
-button {
-  font-size: 14px;
-  height: 50px;
-  margin-bottom: 5px;
-  width: 50%;
-}
 }
